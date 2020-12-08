@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>EquationServlet</servlet-name>
+		<servlet-class>Controller.EquationServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>EquationServlet</servlet-name>
+		<url-pattern>/secondDegre</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ResolutionDeuxEquationServlet</servlet-name>
+		<servlet-class>Controller.ResolutionDeuxEquationServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ResolutionDeuxEquationServlet</servlet-name>
+		<url-pattern>/deuxEquation</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>ResolutionTroisInconnueServlet</servlet-name>
+		<servlet-class>Controller.ResolutionTroisInconnueServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ResolutionTroisInconnueServlet</servlet-name>
+		<url-pattern>/troisEquation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DecompositionServlet</servlet-name>
+		<servlet-class>Controller.DecompositionServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>DecompositionServlet</servlet-name>
+		<url-pattern>/decomposition</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PpcmServlet</servlet-name>
+		<servlet-class>Controller.PpcmServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PpcmServlet</servlet-name>
+		<url-pattern>/ppcm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PgcdServlet</servlet-name>
+		<servlet-class>Controller.PgcdServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>PgcdServlet</servlet-name>
+		<url-pattern>/pgcd</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ResolutionQuatreInconnueServlet</servlet-name>
+		<servlet-class>Controller.ResolutionQuatreInconnueServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ResolutionQuatreInconnueServlet</servlet-name>
+		<url-pattern>/quatreInconnue</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
